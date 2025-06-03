@@ -1,0 +1,24 @@
+# HTTP y WebSocket
+httpx>=0.24.0
+websockets>=11.0.3
+
+# Criptografía y Seguridad
+cryptography>=41.0.0
+python-dotenv>=1.0.0
+
+# Análisis de datos y matemáticas
+pandas>=2.0.0
+numpy>=1.24.0
+ta-lib>=0.4.0  # Indicadores técnicos
+scipy>=1.10.0
+
+# Procesamiento asíncrono
+asyncio>=3.4.3
+aiohttp>=3.8.5
+
+# Utilidades
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Trading específico
+ccxt>=4.0.0  # Para backup de exchange
