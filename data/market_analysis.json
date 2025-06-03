@@ -1,0 +1,92 @@
+{
+  "timestamp": "2025-06-03T10:17:26.678Z",
+  "indicators": {
+    "rsi": 76.16595441831777,
+    "macd": -0.515186737249135,
+    "signal": 0.5797203097262518,
+    "trend": "bullish",
+    "volume_change": -3.9970410368145037
+  },
+  "patterns": {
+    "pattern_type": "bearish",
+    "confidence": 33.59540529080469
+  },
+  "predictions": {
+    "short_term": 1.2698200406389244,
+    "medium_term": 8.395700733799796,
+    "confidence": 48.55872652146549
+  },
+  "trades": [
+    {
+      "pair": "BTC/USD",
+      "type": "sell",
+      "price": "30800.27",
+      "profit": "-1.93"
+    },
+    {
+      "pair": "BTC/USD",
+      "type": "sell",
+      "price": "30002.19",
+      "profit": "0.51"
+    },
+    {
+      "pair": "BTC/USD",
+      "type": "buy",
+      "price": "30023.25",
+      "profit": "-1.29"
+    },
+    {
+      "pair": "BTC/USD",
+      "type": "sell",
+      "price": "31244.31",
+      "profit": "-0.25"
+    },
+    {
+      "pair": "BTC/USD",
+      "type": "buy",
+      "price": "31658.09",
+      "profit": "0.15"
+    }
+  ],
+  "strategies": {
+    "trend_following": {
+      "timeframe": "1h",
+      "performance": "+2.5%",
+      "signals": {
+        "sma_cross": "bullish",
+        "momentum": "negative"
+      }
+    },
+    "mean_reversion": {
+      "timeframe": "30m",
+      "performance": "+1.8%",
+      "signals": {
+        "oversold": false,
+        "overbought": false
+      }
+    },
+    "breakout": {
+      "timeframe": "4h",
+      "performance": "-0.5%",
+      "signals": {
+        "volatility": "high",
+        "breakout_direction": "down"
+      }
+    }
+  },
+  "market_sentiment": {
+    "overall": "bearish",
+    "fear_greed_index": 88,
+    "social_sentiment": "negative"
+  },
+  "risk_metrics": {
+    "volatility": "1.51",
+    "liquidity": "high",
+    "market_risk": 88
+  },
+  "system": {
+    "cpu": 21.495400643639442,
+    "memory": 51.079721532299004,
+    "latency": 41
+  }
+}
