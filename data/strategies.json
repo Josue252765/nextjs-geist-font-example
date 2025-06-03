@@ -1,0 +1,42 @@
+{
+  "trend_following": {
+    "active": true,
+    "type": "trend_following",
+    "risk_per_trade": "0.01",
+    "leverage": 3,
+    "timeframe": 60,
+    "indicators": {
+      "sma_short": 20,
+      "sma_long": 50,
+      "rsi_period": 14,
+      "rsi_overbought": 70,
+      "rsi_oversold": 30
+    },
+    "performance": "+2.5%"
+  },
+  "mean_reversion": {
+    "active": true,
+    "type": "mean_reversion",
+    "risk_per_trade": "0.008",
+    "leverage": 2,
+    "timeframe": 30,
+    "indicators": {
+      "bollinger_period": 20,
+      "bollinger_std": 2,
+      "rsi_period": 14
+    },
+    "performance": "+1.8%"
+  },
+  "breakout": {
+    "active": false,
+    "type": "breakout",
+    "risk_per_trade": "0.012",
+    "leverage": 4,
+    "timeframe": 240,
+    "indicators": {
+      "atr_period": 14,
+      "breakout_period": 20
+    },
+    "performance": "-0.5%"
+  }
+}
